@@ -21,9 +21,9 @@ const Header = (props: Props) => {
             duration: 1.5,
         }}
         className='flex flex-row items-center'>
-            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='gray' bgColor='transparent'/>
-            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='gray' bgColor='transparent'/>
+            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='black' bgColor='transparent'/>
+            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='black' bgColor='transparent'/>
+            <SocialIcon url="https://www.linkedin.com/in/zach-sykes/" fgColor='black' bgColor='transparent'/>
         </motion.div>
 
         <motion.div 
@@ -41,8 +41,8 @@ const Header = (props: Props) => {
             duration: 1.5,
         }}
         className='flex flex-row items-center text-gray-300 cursor-pointer'>
-        <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
-        <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
+        <SocialIcon className='cursor-pointer' network='email' fgColor='black' bgColor='transparent'/>
+        <p className='uppercase hidden md:inline-flex text-sm text-blue-100'>Get In Touch</p>
         </motion.div>
     </header>
   )
