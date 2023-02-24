@@ -22,7 +22,7 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.5,
         }}
-        className="flex flex-row items-center"
+        className="flex flex-row items-center w-[5rem] sm:w-[120px] sm:h-[120px]"
       >
         <SocialIcon
           url="https://www.linkedin.com/in/zach-sykes/"
