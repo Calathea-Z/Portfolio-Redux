@@ -28,11 +28,12 @@ const Projects = (props: Props) => {
             viewport={{
                 once: true
             }}
-             src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png" alt="" />
+             src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png" alt=""
+             className='max-h-96' />
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
               <h4 className='text-4xl font-semibold text-center'> 
               <span className='underline decoration-yellow-100/50'>
-                Project {i + 1} of {projects.length}
+                Project {i + 1} of {projects.length}:
               </span>{" "}
                 Melodius 
               </h4>
