@@ -19,7 +19,7 @@ const Skill = ({ directionLeft }: Props) => {
             x: 0,
         }}
         src='https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png'
-        className='rounded-full border border-slate-400 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale-[30%] transition duration-300 ease-in-out'
+        className='rounded-full border border-slate-400 object-cover w-[76px] h-[76px] xl:w-[76px] xl:h-[76px] filter group-hover:grayscale-[30%] transition duration-300 ease-in-out'
         />
     </div>
   )
