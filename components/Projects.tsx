@@ -31,13 +31,13 @@ const Projects = (props: Props) => {
              src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png" alt=""
              className='max-h-20 md:max-h-36' />
             <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
-              <h4 className='text-4xl font-semibold text-center'> 
+              <h4 className='text-3xl sm:text-4xl font-semibold text-center'> 
               <span className='underline decoration-yellow-100/50'>
                 Project {i + 1} of {projects.length}:
               </span>{" "}
                 Melodious 
               </h4>
-              <p className='text-lg text-center md:text-left'>
+              <p className='text-md sm:text-lg text-center md:text-left'>
               This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch
               </p>
             </div>

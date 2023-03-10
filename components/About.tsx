@@ -34,7 +34,7 @@ const About = (props: Props) => {
         viewport={{
             once: true,
         }}
-        className='mt-[70px] sm:mt-[50px] w-52 h-56 mb-0 flex-shrink-0 rounded-full md:w-72 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='mt-[70px] sm:mt-[50px] mb-0 flex-shrink-0 rounded-full w-36 h-36'
         ><Image src={profileImageTwo} alt='alternate profile photo' className="rounded-lg object-fill" />
         </motion.div>
 
