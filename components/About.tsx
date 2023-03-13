@@ -40,7 +40,7 @@ const About = (props: Props) => {
         <Image
           src={profileImageTwo}
           alt="alternate profile photo"
-          className="invisible sm:visible rounded-lg object-fill w-1 h-1 sm:w-36 sm:h-36"
+          className="invisible sm:visible rounded-lg object-fill w-1 h-1 md:w-36 md:h-36"
         />
       </motion.div>
 
