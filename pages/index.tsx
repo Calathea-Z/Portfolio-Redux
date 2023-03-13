@@ -23,11 +23,11 @@ export default function Home() {
         <Hero/>
       </section>
 
-      <section id='about' className='sm:snap-center'>
+      <section id='about' className='snap-center'>
         <About/>
       </section>
 
-      <section id='skills' className='sm:snap-start'>
+      <section id='skills' className='snap-start'>
         <Skills />
       </section>
 
@@ -35,7 +35,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section id='contact' className='sm:snap-start'>
+      <section id='contact' className='snap-start'>
         <Contact />
       </section>
 
