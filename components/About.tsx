@@ -15,9 +15,9 @@ const About = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-y-hidden"
+      className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-slate-300 text-2xl mt-1 sm:mt-0">
+      <h3 className=" absolute top-20 uppercase tracking-[20px] text-slate-300 text-2xl mt-1 sm:mt-0">
         About
       </h3>
       <motion.div
@@ -35,22 +35,22 @@ const About = (props: Props) => {
         viewport={{
           once: true,
         }}
-        className="mt-[90px] sm:mt-[50px] md:mt-[40px] mb-0 flex-shrink-0 rounded-full w-[120px] sm:w-[260px] md:w-[300px]"
+        className="sm:mt-[50px] md:mt-[40px] mb-0 flex-shrink-0 rounded-full w-[1px] h-[1px] md:h-auto md:w-[300px]"
       >
         <Image
           src={profileImageTwo}
           alt="alternate profile photo"
-          className="rounded-lg object-fill "
+          className="rounded-lg sm:object-fill invisible md:visible pb-1 "
         />
       </motion.div>
 
-      <div className="space-y-5 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
+      <div className="md:space-y-5 px-5 py-10 md:py-0 md:px-10">
+        <h4 className="text-4xl font-semibold invisible lg:visible">
           Here is a{" "}
           <span className="bg-yellow-100/10 rounded-lg p-1">little</span>{" "}
           background
         </h4>
-        <p className="text-[12px] sm:text-base md:text-xl bg-yellow-100/10 py-1 px-2 rounded-lg border-transparent hover:border-yellow-100/30 text-slate-100 ">
+        <p className="sm:text-md md:text-md lg:text-xl bg-yellow-100/10 py-1 px-2 rounded-lg border-transparent text-slate-100 ">
           I am a passionate software engineer with a deep love for coding. My
           background as a touring musician and kitchen manager has instilled in
           me a unique perspective on teamwork, problem-solving, and the ability
