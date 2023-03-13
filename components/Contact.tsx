@@ -20,7 +20,7 @@ const Contact = (props: Props) => {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row sm:max-w-40 sm:max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className="top-[7rem] md:top-20 uppercase tracking-[20px] text-slate-300 text-2xl sm:mb-[10px] md:mb-[0px]">
+        <h3 className="top-[9rem] md:top-20 uppercase tracking-[20px] text-slate-300 text-2xl sm:mb-[10px] md:mb-[0px]">
         Contact
       </h3>
 
