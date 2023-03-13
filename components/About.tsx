@@ -44,13 +44,13 @@ const About = (props: Props) => {
         />
       </motion.div>
 
-      <div className="md:space-y-5 px-5 py-10 md:py-0 md:px-10">
+      <div className="md:space-y-5 px-5 py-5 md:py-0 md:px-10">
         <h4 className="text-4xl font-semibold invisible lg:visible">
           Here is a{" "}
           <span className="bg-yellow-100/10 rounded-lg p-1">little</span>{" "}
           background
         </h4>
-        <p className="sm:text-md md:text-md lg:text-xl bg-yellow-100/10 py-1 px-2 rounded-lg border-transparent text-slate-100 ">
+        <p className="text-sm md:text-md lg:text-xl bg-yellow-100/10 py-1 px-2 rounded-lg border-transparent text-slate-100 ">
           I am a passionate software engineer with a deep love for coding. My
           background as a touring musician and kitchen manager has instilled in
           me a unique perspective on teamwork, problem-solving, and the ability
