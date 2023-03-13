@@ -39,13 +39,6 @@ export default function Home() {
         <Contact />
       </section>
 
-      <Link href='#hero'>
-        <footer className='sticky bottom-5 w-full cursor-pointer'>
-          <div className='flex items-center justify-center'>
-            <CloudArrowUpIcon className="h-10 w-10 rounded-full filter grayscale hover:text-blue-400/70 hover:grayscale-0 cursor-pointer" />
-          </div>
-        </footer>
-      </Link>
     </div>
   );
 }

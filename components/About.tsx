@@ -35,30 +35,30 @@ const About = (props: Props) => {
         viewport={{
           once: true,
         }}
-        className="mt-[70px] sm:mt-[50px] mb-0 flex-shrink-0 rounded-full"
+        className="mt-[90px] sm:mt-[50px] md:mt-[40px] mb-0 flex-shrink-0 rounded-full w-[180px] sm:w-[260px] md:w-[300px]"
       >
         <Image
           src={profileImageTwo}
           alt="alternate profile photo"
-          className="invisible sm:visible rounded-lg object-fill w-1 h-1 md:w-36 md:h-36"
+          className="rounded-lg object-fill "
         />
       </motion.div>
 
       <div className="space-y-5 px-0 md:px-10">
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
-          <span className="underline decoration-yellow-100/50">little</span>{" "}
+          <span className="bg-yellow-100/10 rounded-lg p-1">little</span>{" "}
           background
         </h4>
-        <p className="text-[12px] sm:text-base ">
+        <p className="text-[12px] sm:text-base md:text-xl bg-yellow-100/10 py-1 px-2 rounded-lg border-transparent hover:border-yellow-100/30 text-slate-100 ">
           I am a passionate software engineer with a deep love for coding. My
           background as a touring musician and kitchen manager has instilled in
           me a unique perspective on teamwork, problem-solving, and the ability
-          to adapt to new environments. <br /> When I'm not coding you'll most
+          to adapt to new environments. <br /> <br /> When I'm not coding you'll most
           likely find me exploring new places, attending concerts, or riding my
           bike. Travel and new experiences are a huge part of my life. I believe
           that exposure to different cultures and ways of thinking has helped me
-          to approach problems in new and innovate ways. <br /> Currently, I
+          to approach problems in new and innovate ways. <br /> <br /> Currently, I
           reside in Asheville, North Carolina, where I work with my coding
           partner, Suzie the French Bulldog. I am open to relocating and always
           on the lookout for new opportunities to grow and develop my skills. I

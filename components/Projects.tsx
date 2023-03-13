@@ -37,7 +37,7 @@ const Projects = (props: Props) => {
               </span>{" "}
                 Melodious 
               </h4>
-              <h6 className='text-center text-yellow-300/90 text-xl font-bold'>- React, Next.JS, Tailwind.CSS, API - </h6>
+              <h6 className='text-center text-yellow-300/90 text-xl font-bold'>- React, Next.JS, Tailwind.CSS, API</h6>
               <p className='text-md sm:text-lg text-center md:text-left'>
               This playlist generator app offers a personalized music experience for music lovers. The app utilizes Spotify and OpenAI APIs to generate artist suggestions based on the user's input prompt and serves as a Spotify controller for convenient play. If you'd like to access the app and try it out, please don't hesitate to get in touch
               </p>
