@@ -30,12 +30,7 @@ const Header = (props: Props) => {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/zach-sykes/"
-          fgColor="rgb(250 204 21)"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://www.linkedin.com/in/zach-sykes/"
+          url="https://github.com/Calathea-Z"
           fgColor="rgb(250 204 21)"
           bgColor="transparent"
         />
