@@ -1,7 +1,7 @@
 import { EnvelopeIcon, MapPinIcon } from '@heroicons/react/24/solid'
 import { useForm } from "react-hook-form";
 import Link from 'next/link';
-import {CloudArrowUpIcon} from '@heroicons/react/24/solid';
+import {HomeIcon} from '@heroicons/react/24/solid';
 
 type FormData = {
   name: string;
@@ -19,8 +19,8 @@ const Contact = (props: Props) => {
   } );
 
   return (
-    <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row sm:max-w-40 sm:max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className="top-[9rem] md:top-20 uppercase tracking-[20px] text-slate-300 text-2xl sm:mb-[10px] md:mb-[0px]">
+    <div className='h-screen flex relative flex-col text-center md:text-left sm:max-w-40 sm:max-w-7xl px-10 justify-evenly mx-auto items-center'>
+        <h3 className="top-[11rem] md:top-20 uppercase tracking-[20px] text-slate-300 text-2xl sm:mb-[10px] md:mb-[0px]">
         Contact
       </h3>
 
@@ -63,7 +63,7 @@ const Contact = (props: Props) => {
       <Link href='#hero'>
         <footer className='bottom-2 w-full cursor-pointer'>
           <div className='flex items-center justify-center'>
-            <CloudArrowUpIcon className="h-10 w-10 rounded-full filter grayscale hover:text-blue-400/70 hover:grayscale-0 cursor-pointer" />
+            <HomeIcon className="h-10 w-10 rounded-full filter grayscale hover:text-blue-400/70 hover:grayscale-0 cursor-pointer" />
           </div>
         </footer>
       </Link>
